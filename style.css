@@ -181,3 +181,35 @@ padding: 5px 0;
  .feature_text p{
     padding-bottom: 10px;
  }
+
+ /* footer style  */
+ .footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--black);
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+ }
+ .footer h3{
+    color: white;
+ }
+ .footer p{
+    color: whitesmoke;
+    padding-bottom: 15px;
+ }
+ .footer_link{
+    display: flex;
+ }
+ .footer_link li{
+    list-style: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s linear;
+    border-radius: 10px;
+ }
+ .footer_link li:hover{
+   transform: translateY(-5px);
+ }
